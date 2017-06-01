@@ -1,0 +1,22 @@
+{
+    "name": "keboola/cli-utils",
+    "require": {
+        "aws/aws-sdk-php": "^3.28",
+        "symfony/console": "^3.3"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*"
+    },
+    "authors": [
+        {
+            "name": "Ondrej Hlavacek",
+            "email": "ondrej.hlavacek@keboola.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+   		"psr-0": {
+   			"Keboola\\Console": "src/"
+   		}
+   	}
+}

@@ -1,0 +1,16 @@
+version: '2'
+services:
+  dev:
+    image: keboola/cli-utils
+    volumes:
+      - ./:/code
+    working_dir: /code
+    environment:
+      - AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY
+    command: >
+       sh -c '
+       composer install
+       && php cli.php
+       '
+

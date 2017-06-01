@@ -1,0 +1,18 @@
+[
+  {
+    "Origin": "CreateRoute",
+    "DestinationCidrBlock": "XX.XX.XX.XX/32",
+    "InstanceId": "i-ec257807",
+    "NetworkInterfaceId": "eni-fa66078c",
+    "State": "active",
+    "InstanceOwnerId": "147946154733"
+  },
+  {
+    "Origin": "CreateRoute",
+    "DestinationCidrBlock": "XX.XX.XX.XX/32",
+    "InstanceId": "i-ec257807",
+    "NetworkInterfaceId": "eni-fa66078c",
+    "State": "active",
+    "InstanceOwnerId": "147946154733"
+  }
+]
