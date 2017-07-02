@@ -1,7 +1,7 @@
 version: '2'
 services:
   dev:
-    image: keboola/cli-utils
+    build: .
     volumes:
       - ./:/code
     working_dir: /code

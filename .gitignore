@@ -1,4 +1,6 @@
 .env
 routes.json
+hosts.csv
+matches.csv
 vendor
 composer.lock
